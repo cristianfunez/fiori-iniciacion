@@ -12,13 +12,13 @@
                 <Label id="labelShipName"  labelFor="shipName" text="Nombre transporte" class="sapUiSmallMargin"/>
                 <Input id="shipName" width="200px" class="sapUiSmallMargiEnd"/>
                 <Label id="labelCountry" text="Pais" class="sapUiSmallMargin"/>
-                <Select id="slCountry" selectedKey="{selectionScreen>/CountryKey}" 
+<!--                 <Select id="slCountry" selectedKey="{selectionScreen>/CountryKey}" 
                                        forceSelection="false"
                                        items="{selectionSreen>Countries}"
 
 
 
-                </Select>
+                </Select> -->
             </Panel>
 
     </Page>
