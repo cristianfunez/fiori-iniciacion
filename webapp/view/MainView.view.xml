@@ -1,0 +1,25 @@
+<mvc:View 
+    controllerName="namecris.usuarios.controller.MainView"
+    xmlns:mvc="sap.ui.core.mvc" 
+    displayBlock="true"
+    xmlns="sap.m">
+
+    <Page id="page" title="{i18n>title}">
+        <content />
+            <Text text="Texto de prueba"></Text>
+
+            <Panel headerText="{i18n>selectionScreen}">
+                <Label id="labelShipName"  labelFor="shipName" text="Nombre transporte" class="sapUiSmallMargin"/>
+                <Input id="shipName" width="200px" class="sapUiSmallMargiEnd"/>
+                <Label id="labelCountry" text="Pais" class="sapUiSmallMargin"/>
+                <Select id="slCountry" selectedKey="{selectionScreen>/CountryKey}" 
+                                       forceSelection="false"
+                                       items="{selectionSreen>Countries}"
+
+
+
+                </Select>
+            </Panel>
+
+    </Page>
+</mvc:View>
